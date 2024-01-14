@@ -1,0 +1,75 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 3px 3px 5px goldenrod;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+#friendList {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.friend-text {
+    flex: 0 0 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.serial-number {
+    margin-right: 10px;
+}
+
+.increment-box {
+    background-color: #39963c;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.remove-button {
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    border: 1px solid rgb(153, 114, 14) !important;
+}
+
+input:hover {
+    border: 2px solid rgb(153, 114, 14) !important;
+}
+
+input,
+button:focus {
+    box-shadow: none !important;
+}
+
+#addButton {
+    background-color: rgb(153, 114, 14);
+    border: none;
+}
+
+li:hover {
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+body {
+    background-color: #f5f4f4;
+}
